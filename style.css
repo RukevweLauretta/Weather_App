@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(to right,#515A67,#232E3E );
+}
+
+h2{
+    color:black;
+}
+
+p, .sub{
+    color:black;
+    font-weight:bold;
+    font-size:1rem;
+    white-space:nowrap;
+}
+
+section{
+    background-color: #81a5e2;
+    border-radius:20px;
+    padding:5% 2%;
+    justify-items: center;
+    margin:10% 30%;
+    color:white;
+}
+
+
+
+.search{ 
+    border:none;
+    outline:none;
+    padding:5% 5% 5% 10%;
+    width:100%;
+    background-color: transparent;
+    color:white;
+}
+
+.search::placeholder{
+    color:white;
+    
+}
+
+.next{
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+    padding:5% 10%;
+    display: block;
+    margin:auto;   
+    background-color: #81a5e2;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.next:hover{
+    background-color:rgb(16, 44, 86);
+    color:white;
+}
+
+.next a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+   
+}
+
+.two{
+    text-decoration: none;;
+    color:black;
+}
+
+.space{
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin-bottom:5%;
+}
+
+.bar{
+display: flex;
+align-items: center;
+margin-left:20%;
+border-radius:20px;
+display: flex;
+justify-content:space-between;
+align-items:center;
+border:none;
+outline:none;
+box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+width:50%;
+}
+
+.bar button{
+    background-color:rgb(16, 44, 86);
+    color:white;
+    border-radius: 0 20px 20px 0;
+    margin:0;
+    outline:none;
+    border:none;
+    height:100%;
+    cursor:pointer;
+    align-self: stretch;
+    padding: 5%;
+}
+
+#center-image{
+    display: block;
+    margin:auto;
+}
+
+#city{
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:10%;
+}
+
+#temperature{
+    font-size:2.5rem; 
+    font-weight:bold;
+    margin:0;
+}
+
+.extras{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+    flex:1;
+    flex-wrap: wrap;
+    margin-right: 20%;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:20%;
+}
+
+.flex img{
+    color:white;
+}
+
+
+.flex p{
+    margin-left:5%;
+}
+
+
+@media screen and (max-width: 1000px){
+    .extras{
+        flex-direction: column;
+        margin-right:25%;
+        margin-top:0;
+    }
+
+    .space{
+        width:100%;
+        padding: 0 5% 0% 5%;
+    }
+    .bar{
+        width:60%;
+    }
+
+   h2, p{
+    font-size: 1rem;
+   }
+   .center-image{
+        width:40%;
+        height:40%;
+    }
+   }
+    

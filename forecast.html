@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forecast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Rukevwe">
+    <meta name="description" content="the second page of my simple weather app with html, css, and js">
+</head>
+<body>
+    <section>
+        <div class="space">
+            <div><a href="index.html" class="two">Back</a></div>
+            <div class="bar">
+                <input type="search" class="search" id="searchElement" placeholder="Enter Location">
+                <button id= 'btn'>Search</button> 
+            </div>
+        </div>
+
+
+            <div><img src="img/sunny.png" alt="" width="30%" height="30%" Id="center-image" class="center-image"> </div>
+
+            <div class="result">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <h2 id="city"></h2>
+            </div>
+            <div class="extras">
+                <div class="flex">
+                    <div><img src="img/humidy.png" width='' height="40px"></div>
+                    <div><p id="humidity"></p>
+                    <p>Humidity</p></div>
+                </div>
+
+            <div class="flex">
+                    <div><img src="img/windy.png" width="" height="40px"></div>
+                    <div><p id="wind"></p>
+                    <p>Wind Speed</p></div>
+            </div>
+            </div>
+        
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
