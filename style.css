@@ -73,6 +73,20 @@ section{
     margin-bottom:5%;
 }
 
+.return{
+    font-weight:bold;
+    padding:1%;
+    border-radius:5px;
+}
+
+.return a{
+    color:white;
+}
+
+.return:hover{
+    background-color:rgb(16, 44, 86);
+}
+
 .bar{
 display: flex;
 align-items: center;
@@ -122,7 +136,6 @@ width:50%;
     align-items: center;
     justify-content: space-between;
     width:50%;
-    flex:1;
     flex-wrap: wrap;
     margin-right: 20%;
 }
@@ -145,18 +158,22 @@ width:50%;
 
 
 @media screen and (max-width: 1000px){
-    .extras{
+    .extras {
         flex-direction: column;
-        margin-right:25%;
-        margin-top:0;
     }
+
+    section{
+        margin:5%;
+    }
+
 
     .space{
         width:100%;
-        padding: 0 5% 0% 5%;
+        padding: 0 5% 0% 7%;
     }
     .bar{
         width:60%;
+        margin:auto;
     }
 
    h2, p{
