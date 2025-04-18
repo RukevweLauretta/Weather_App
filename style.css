@@ -197,6 +197,7 @@ width:50%;
 
    h2, p{
     font-size: 1rem;
+    text-align:center;
    }
    #center-image{
         width:40%;
